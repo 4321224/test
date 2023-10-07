@@ -1,0 +1,17 @@
+.job-detail {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .job-detail h2 {
+    text-align: center;
+  }
+  
+  .job-detail h3 {
+    color: #007BFF;
+  }
+  
+  .job-detail p {
+    line-height: 1.6;
+  }
+  

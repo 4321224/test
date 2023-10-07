@@ -1,0 +1,26 @@
+.login-card {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    
+   box-shadow: rgba(0,0,0,.1)0px3px12px;
+  
+   border-radius:8px; 
+  }
+  
+  .login-card input[type='text'], .login-card input[type='password']{
+     width:100%;
+     padding :10px;
+     margin-bottom :10px;
+     border-radius :4px; 
+     border :1px solid #ccc; 
+  }
+  
+  .login-card button{
+     width :100%; 
+     padding :10px; 
+     background-color :#007BFF; 
+     color:white; 
+     border:none;  
+  }
+  
