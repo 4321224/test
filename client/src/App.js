@@ -16,7 +16,7 @@ const App = () => {
           <Route
             path="/jobs"
             element={
-               <JobList /> 
+              localStorage.getItem('token') ? <JobList /> : <Navigate to="/login" replace />
             }
           />
           <Route path="/job/:id" element={<JobDetail />} />
